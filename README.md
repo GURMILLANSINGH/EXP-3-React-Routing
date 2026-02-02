@@ -95,6 +95,9 @@ To create a multi-page Single Page Application (SPA) using client-side routing i
 ### 🔹 Dashboard Page
 ![Dashboard](Profile/photos/DASHBOARD.png)
 
+### 🔹 LOGO
+![LOGO](Profile/photos/LOGO.png)
+
 ### 🔹 Profile Page
 ![Profile](Profile/photos/PROFILE.png)
 
