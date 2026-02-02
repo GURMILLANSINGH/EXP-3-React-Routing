@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Ensure the root React/HTML container fills the screen */
+#root {
+  width: 100%;
+}
+
+.navbar {
+  background: #4b3dbd;
+  color: white;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box; /* Prevents padding from adding to width */
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar button {
+  padding: 8px 20px;
+  border: none;
+  background: white;
+  color: #4b3dbd; /* Match the theme */
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.navbar button:hover {
+  background: #f0f0f0;
+}
+
+.page {
+  min-height: calc(100vh - 60px); /* Adjusts for Navbar height */
+  background: #c9ced6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 60px 100px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+  margin-top: 10px;
+}
