@@ -1,117 +1,130 @@
-Experiment-3.1: Basic Client-Side Routing Using React Router
+# 🚀 Unit–3: Implementing Routing in Single Page Applications (SPA)
 
-🚀 SPA Routing Using React Router  
-A simple React Single Page Application (SPA) demonstrating basic client-side routing using React Router DOM.  
-This project is part of Unit-3: Implementing Routing in Single Page Applications (SPA).
+This repository contains two experiments demonstrating client-side routing using React Router DOM.
 
-📌 Experiment-3.1: Basic Client-Side Routing Using React Router
+---
 
-🎯 Aim  
+# 📌 Experiment-3.1: Basic Client-Side Routing Using React Router
+
+## 🚀 SPA Routing Using React Router
+A simple React Single Page Application (SPA) demonstrating basic navigation between multiple pages without refreshing the browser.
+
+## 🎯 Aim
 To implement basic client-side routing in a Single Page Application using React Router.
 
-🧰 Software Requirements  
-Node.js  
-React  
-React Router DOM  
-Web Browser  
+## 🧰 Software Requirements
+- Node.js  
+- React  
+- React Router DOM  
+- Web Browser  
 
-📖 Theory  
-Single Page Applications (SPA) allow users to navigate between multiple views without reloading the page.  
-React Router handles routing using BrowserRouter, Routes, Route, and useNavigate for smooth navigation.
+## 📖 Theory
+Single Page Applications allow navigation between different views without page reload.  
+React Router handles routing using BrowserRouter, Routes, Route, and useNavigate to provide smooth and fast page transitions.
 
-🖼️ Project Screenshots  
+## 🌟 Features
+- Home Page  
+- About Page  
+- Contact Page  
+- Client-side Routing  
+- No Page Reload  
 
-🔹 Home Page  
+## 🛠️ Technologies Used
+- React JS  
+- React Router DOM  
+- JavaScript  
+- HTML  
+- CSS  
+
+## 🖼️ Project Screenshots
+
+### 🔹 Home Page
 ![Home](routing/photos/HOME.png)
 
-🔹 About Page  
+### 🔹 About Page
 ![About](routing/photos/ABOUT.png)
 
-🔹 Contact Page  
+### 🔹 Contact Page
 ![Contact](routing/photos/CONTACT.png)
 
-📂 Project Structure  
+## 📂 Folder Structure
+```
+routing/
+├── src/
+├── public/
+├── photos/
+│   ├── HOME.png
+│   ├── ABOUT.png
+│   └── CONTACT.png
+├── package.json
+└── vite.config.js
+```
 
-routing/  
-│  
-├── src/  
-├── public/  
-├── photos/  
-│ ├── HOME.png  
-│ ├── ABOUT.png  
-│ └── CONTACT.png  
+## ⚙️ Installation & Run
+```bash
+cd routing
+npm install
+npm run dev
+```
 
-⚙️ Installation Steps  
+---
 
-1️⃣ Open terminal  
-cd routing  
+# 🚀 Experiment-3.2: Multi-Page SPA Using Routing
 
-2️⃣ Install dependencies  
-npm install  
-
-3️⃣ Run project  
-npm run dev  
-
-
-
-# 🚀 EXPERIMENT-3.2: MULTI-PAGE SPA USING ROUTING
-
-## 🎯 AIM  
+## 🎯 Aim
 To create a multi-page Single Page Application (SPA) using client-side routing in React.
 
-## 🌟 FEATURES  
+## 🌟 Features
+- Dashboard Page  
+- Profile Page  
+- Multi-page Navigation  
+- Client-side Routing  
+- No Page Reload  
+- Reusable Components  
+- Fast & Smooth Navigation  
 
-Multi-page Single Page Application  
-Client-side Routing  
-Navigation using useNavigate  
-No Page Reload  
-Reusable Components  
-Fast & Smooth Navigation  
+## 🛠️ Technologies Used
+- React JS  
+- React Router DOM  
+- JavaScript  
+- HTML  
+- CSS  
 
-## 🛠️ TECHNOLOGIES USED  
+## 🖼️ Output Screenshots
 
-React JS  
-React Router DOM  
-JavaScript  
-HTML  
-CSS  
-
-📁 FOLDER STRUCTURE  
-
-Profile/  
-│  
-├── src/  
-├── public/  
-├── photos/  
-│ ├── DASHBOARD.png  
-│ └── PROFILE.png  
-
-## ⚙️ INSTALLATION & RUN  
-
-▶️ OPEN TERMINAL  
-cd Profile  
-
-▶️ INSTALL DEPENDENCIES  
-npm install  
-
-▶️ RUN PROJECT  
-npm run dev  
-
-## 🖼️ Output Screenshots  
-
-### 🔹 Dashboard Page  
+### 🔹 Dashboard Page
 ![Dashboard](Profile/photos/DASHBOARD.png)
 
-### 🔹 Profile Page  
+### 🔹 Profile Page
 ![Profile](Profile/photos/PROFILE.png)
 
-## 🎓 LEARNING OUTCOMES  
+## 📂 Folder Structure
+```
+Profile/
+├── src/
+├── public/
+├── photos/
+│   ├── DASHBOARD.png
+│   └── PROFILE.png
+├── package.json
+└── vite.config.js
+```
 
-- Understood SPA Architecture  
-- Learned Client-side Routing  
-- Implemented Navigation using React Router  
-- Built Multi-page React Application  
+## ⚙️ Installation & Run
+```bash
+cd Profile
+npm install
+npm run dev
+```
 
-## 📌 CONCLUSION  
+---
 
-This project demonstrates how to build a multi-page Single Page Application using React Router with smooth and efficient client-side navigation.
+## 🎓 Learning Outcomes
+- Understood SPA architecture  
+- Learned client-side routing  
+- Implemented navigation using React Router  
+- Built multi-page React applications  
+- Achieved smooth routing without refresh  
+
+## 📌 Conclusion
+These experiments demonstrate how React Router enables efficient client-side navigation to build fast and responsive Single Page Applications.
